@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.homeBg{
+    background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+}
+.topBar{
+    display: flex;
+}
+.heading{
+    border: 0;
+    color: #1BF0A2;
+    margin: 0;
+font-size: 35px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+position: relative;
+height: 44px;
+margin-top: 18px;
+margin-left: 50px;
+border-right: .10em solid white;
+text-align: center;
+white-space: nowrap;
+overflow: hidden;
+width: 10.0em;
+animation: typing 1.5s steps(30, end) forwards, blink 0.7s infinite;
+}
+.menuBar{
+    color: white;
+    position: absolute;
+    margin: 0;
+    border: 0;
+    left: 500px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.menuBar > span{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border: 1px solid #1BF0A2;
+    border-top: 1px #1BF0A2;
+    border-bottom: 1px #1BF0A2;
+}
+.info{
+    color: white;
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    width: 45vw;
+    line-height: 48px;
+}
+.desc{
+    color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 30vw;
+}
+.startButton{
+    background-color: #1BF0A2;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-weight: 700;
+    padding-top:15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+}
+.work{
+    color: white;
+    margin-top: 35px;
+    margin-left: 33px;
+    height: 28px;
+    border-bottom: 1.5px solid;
+    border-image:linear-gradient(120deg, #FFFFFF 0%, rgba(0, 0, 0, 0) 131.36%);
+    border-image-slice: 1;
+    cursor: pointer;
+}
+.effects{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    border-width: 0 100px 140px;
+    border-style: solid;
+    border-color: transparent transparent #5cd8a5;
+    
+}
+.overeffects{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    border-width: 0 140px 180px;
+    border-style: solid;
+    border-color: transparent transparent #0152484D;
+}
+.effectsRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(50%);
+    border-width: 0 160px 200px;
+    border-style: solid;
+    border-color: transparent transparent #5cd8a5;
+}
+.overeffectsRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(50%);
+    border-width: 0 200px 280px;
+    border-style: solid;
+    border-color: transparent transparent #0152484D;
+}
+.homeImg{
+    margin-top: 130px;
+    margin-left: 50px;
+    width: 600px;
+    height: 200px;
+}
+.middle{
+    display: flex;
+}
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      border-right: .10em solid white;
+    }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: white; }
+  }
+  
